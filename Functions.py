@@ -1,12 +1,31 @@
+''' 
+this script is used to run function in the list 
+input: 1. sds
+       2. sd
+logic: 
+
+output: 1. sds
+
+
+author: Aaron
+Date: 26/04/2020
+'''
 from math import *
 from random import randint
 import statistics
 
-list1 = []
-list2 = []
-x=int
+
+def print_list():
+	'''
+    function is to do some thing 
+	'''
+	pass  
+
 
 def inputlist():
+	'''
+	fucntion is to do some thing 
+	'''
     ###list###
     global x
     x = int(input("How many numbers: "))
@@ -36,4 +55,15 @@ def inputlist():
     stdev = sqrt(y/z)
     print("The standard deviation is", stdev)
 
-inputlist()
+
+def main():
+
+	list1 = []
+	list2 = []
+	x=int
+
+	inputlist()
+	print_list()
+
+if __name__ == '__main__':
+	main()
