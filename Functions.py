@@ -15,21 +15,6 @@ from random import randint
 import statistics
 
 
-def print_list():
-	'''
-    function is to do some thing 
-	'''
-	pass  
-
-def test_function():
-    pass
-
-
-
-def new_function():
-	pass 
-
-
 def inputlist():
 	'''
 	fucntion is to do some thing 
