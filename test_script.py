@@ -3,3 +3,4 @@ import numpy as np
 
 print('hello Western Australia')
 print('hello Rio')
+print('Hello World')
