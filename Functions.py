@@ -22,6 +22,10 @@ def print_list():
 	pass  
 
 
+def new_function():
+	pass 
+
+
 def inputlist():
 	'''
 	fucntion is to do some thing 
