@@ -16,20 +16,24 @@ import statistics
 
 
 def print_list():
-	'''
-    function is to do some thing 
-	'''
-	pass  
+    """
+    function is to do some thing
+    """
+    pass
 
 
 def new_function():
-	pass 
+    pass
 
 
-def inputlist():
-	'''
-	fucntion is to do some thing 
-	'''
+def test_function():
+    pass
+
+
+def inputlist(list1, list2):
+    '''
+    fucntion is to do some thing
+    '''
     ###list###
     global x
     x = int(input("How many numbers: "))
@@ -43,7 +47,7 @@ def inputlist():
     minl = min(list1)
     print("The smallest snumber is", minl)
     ###average###
-    average = sum(list1)/len(list1)
+    average = sum(list1) / len(list1)
     print("The average is", average)
     ###mediah###
     sort = sorted(list1)
@@ -52,22 +56,22 @@ def inputlist():
     ###stdev###
     i = 0
     for i in range(len(list1)):
-        x = (list1[i]-average)**2
+        x = (list1[i] - average) ** 2
         list2.append(x)
     y = sum(list2)
     z = len(list1)
-    stdev = sqrt(y/z)
+    stdev = sqrt(y / z)
     print("The standard deviation is", stdev)
 
 
 def main():
+    list1 = []
+    list2 = []
+    x = int
 
-	list1 = []
-	list2 = []
-	x=int
+    inputlist(list1)
+    print_list(list2)
 
-	inputlist()
-	print_list()
 
 if __name__ == '__main__':
-	main()
+    main()
